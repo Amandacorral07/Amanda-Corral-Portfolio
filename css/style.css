@@ -1,0 +1,20 @@
+:root{
+  --first-color: #f8b595; 
+  
+  --second-color: #f67280; 
+ 
+  --third-color: #c06c84; 
+
+  --fourth-color: #6c5b7c; 
+  
+}
+
+
+body{
+  background-color: var(--first-color);
+  color: var(--second-color);
+  
+}
+.container{
+  padding-top: 100px;
+}
