@@ -1,20 +1,39 @@
 :root{
-  --first-color: #f8b595; 
+  --first-color: #f0ece2; 
   
-  --second-color: #f67280; 
+  --second-color: #dfd3c3; 
  
-  --third-color: #c06c84; 
+  --third-color: #c7b198; 
 
-  --fourth-color: #6c5b7c; 
+  --fourth-color:  #596e79; 
   
 }
 
 
 body{
   background-color: var(--first-color);
-  color: var(--second-color);
+  color: var(--fourth-color);
   
 }
 .container{
   padding-top: 100px;
+}
+
+h1{
+  font-size: 86px;
+  padding-bottom: 20px;
+}
+h2{
+  font-size: 48px;
+}
+
+.My-name {
+  overflow: hidden;
+  animation: typing 3.5s steps(40, end), 
+  blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from {width:0}
+  to {width: 100%}
 }
