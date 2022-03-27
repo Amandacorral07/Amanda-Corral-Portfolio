@@ -1,32 +1,40 @@
 :root{
-  --first-color: #f0ece2; 
+  --first-color: #f49393; 
   
-  --second-color: #dfd3c3; 
+  --second-color: #f21368; 
  
-  --third-color: #c7b198; 
+  --third-color: #aa236d; 
 
-  --fourth-color:  #596e79; 
+  --fourth-color:  #140807; 
   
 }
 
 
 body{
-  background-color: var(--first-color);
-  color: var(--fourth-color);
+  background-color: var(--fourth-color);
+  
   
 }
 .heading-name{
   padding-top: 100px;
+  padding-bottom: 300px;
 }
 
 h1{
   font-size: 86px;
   padding-bottom: 20px;
+  color: var(--second-color);
 }
 h2{
   font-size: 48px;
+  color: var(--first-color);
 }
-
+h4{
+  color: var(--first-color);
+}
+p{
+  color: var(--first-color);
+}
 .My-name {
   overflow: hidden;
   animation: typing 3.5s steps(40, end), 
@@ -39,19 +47,45 @@ a{
   from {width:0}
   to {width: 100%}
 }
+.homepage{
+  color: var(--second-color);
+}
+.heading-name, .contact-me{
+  padding-bottom: 100px;
+}
+.homepage-container{
+  padding-top: 300px;
+}
+.container{
+  padding-bottom: 20px;
+}
 .about-me{
   border-radius: 50% ;
 }
+.project-img{
+  border-radius: 10%;
+}
 @media (max-width: 960px){
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 44px;
+  }
   .about-me-container{
     text-align: center;
   }
 }
 .btn-branding-outline{
   border-radius: 4px;
-  color: var(--fourth-color);
-  border: var(--fourth-color);
-  background-color: var(--third-color);
-  font-size: 18px;
+  color: var(--third-color);
+  border-color: var(--third-color);
+  background-color: var(--fourth-color);
+  font-size: 15px;
   padding: 15px 30px;
+}
+.icons{
+  padding-top: 70px;
+  display: inline-block;
+  text-decoration: none;
 }
