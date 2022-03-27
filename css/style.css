@@ -27,10 +27,10 @@ h1{
 }
 h2{
   font-size: 48px;
-  color: var(--first-color);
+  color: var(--fourth-color);
 }
 h4{
-  color: var(--first-color);
+  color: var(--fourth-color);
 }
 p{
   color: var(--first-color);
@@ -53,6 +53,9 @@ a{
 .heading-name, .contact-me{
   padding-bottom: 100px;
 }
+.heading-name{
+  background: #f7a9c7;
+}
 .homepage-container{
   padding-top: 300px;
 }
@@ -61,6 +64,10 @@ a{
 }
 .about-me{
   border-radius: 50% ;
+}
+hr{
+  width: 100%;
+  color:#f7a9c7;
 }
 .project-img{
   border-radius: 10%;
@@ -83,6 +90,9 @@ a{
   background-color: var(--fourth-color);
   font-size: 15px;
   padding: 15px 30px;
+}
+.contact-me-line{
+  margin-top: 100px;
 }
 .icons{
   padding-top: 70px;
