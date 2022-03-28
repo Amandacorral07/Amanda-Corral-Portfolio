@@ -6,8 +6,13 @@
   --third-color: #aa236d; 
 
   --fourth-color:  #140807; 
-  
+
 }
+.bar{
+  font-family: poppins;
+  font-weight: 200;
+  font-size: 10px;
+} 
 
 
 body{
@@ -19,28 +24,51 @@ body{
   padding-top: 100px;
   padding-bottom: 300px;
 }
-
+.Amanda-corral{
+  position: relative;
+  top:-26px;
+  bottom: -50px;
+}
 h1{
   font-size: 86px;
   padding-bottom: 20px;
   color: var(--second-color);
+
 }
 h2{
   font-size: 48px;
   color: var(--fourth-color);
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 40px;
+}
+.build-things, h4{
+  position: relative;
+  top:-30px;
 }
 h4{
   color: var(--fourth-color);
   padding-top: 10px;
+  font-family: dongle;
+  font-weight: 400;
+  font-size: 33px;
 }
 p{
   color: var(--first-color);
+  font-family: dongle;
+  font-weight: 300;
+  font-size: 35px;
+}
+.About-me-paragraph, .Built-paragraph{
+  position: relative; 
+  top:-100px;
 }
 .My-name {
   overflow: hidden;
   animation: typing 3.5s steps(40, end), 
   blink-caret .75s step-end infinite;
   padding: 20px;
+  font-size: 30px;
 }
 a{
   display: block;
@@ -65,8 +93,7 @@ a{
   padding-bottom: 20px;
 }
 .about-me{
-
-  padding-top: 80px;
+  padding-top: 120px;
 }
 hr{
   width: 100%;
@@ -74,6 +101,8 @@ hr{
 }
 .project-img{
   border-radius: 10%;
+  position: relative;
+  top: 70px;
 }
 @media (max-width: 960px){
   h1{
@@ -86,6 +115,11 @@ hr{
     text-align: center;
   }
 }
+.btn-branding-outline, .show-more-button, .say-hello-button{
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 15px
+}
 .btn-branding-outline{
   border-radius: 4px;
   color: var(--third-color);
@@ -93,12 +127,26 @@ hr{
   background-color: var(--fourth-color);
   font-size: 15px;
   padding: 15px 30px;
+  margin-bottom: 50px;
+}
+.show-more-button{
+  position: relative;
+  top: -60px;
+  margin-bottom: -10px;
 }
 .contact-me-line{
   margin-top: 100px;
+}
+.say-hello-button, .email-paragraph{
+  position: relative;
+  top: -100px;
+}
+.say-hello-button{
+  margin-bottom: -30px;
 }
 .icons{
   padding-top: 70px;
   display: inline-block;
   text-decoration: none;
+  
 }
