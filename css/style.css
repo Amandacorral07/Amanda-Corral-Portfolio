@@ -16,8 +16,8 @@ body{
   
 }
 .heading-name{
-  padding-top: 100px;
-  padding-bottom: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h1{
@@ -63,7 +63,8 @@ a{
   padding-bottom: 20px;
 }
 .about-me{
-  border-radius: 50% ;
+
+  padding-top: 80px;
 }
 hr{
   width: 100%;
