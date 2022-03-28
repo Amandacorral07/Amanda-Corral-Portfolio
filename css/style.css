@@ -16,8 +16,8 @@ body{
   
 }
 .heading-name{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 300px;
 }
 
 h1{
@@ -31,6 +31,7 @@ h2{
 }
 h4{
   color: var(--fourth-color);
+  padding-top: 10px;
 }
 p{
   color: var(--first-color);
@@ -39,6 +40,7 @@ p{
   overflow: hidden;
   animation: typing 3.5s steps(40, end), 
   blink-caret .75s step-end infinite;
+  padding: 20px;
 }
 a{
   display: block;
