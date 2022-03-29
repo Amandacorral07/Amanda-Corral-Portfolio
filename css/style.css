@@ -84,8 +84,8 @@ a{
 .heading-name, .contact-me{
   padding-bottom: 100px;
 }
-.heading-name{
-  background: #F7DDFF;
+.background-img{
+  background-size: cover;
 }
 .homepage-container{
   padding-top: 300px;
@@ -114,6 +114,12 @@ hr{
   }
   .about-me-container{
     text-align: center;
+  }
+}
+@media (min-width: 960px){
+  .background-img{
+    background-size: 100% 100%;
+    
   }
 }
 .btn-branding-outline, .show-more-button, .say-hello-button{
