@@ -20,6 +20,7 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+  
 }
 
 header #myVideo {
@@ -52,6 +53,20 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+.Homepage-container{
+margin-top: 53px;
+padding-top: 20px;
+}
+
+.table-contents-about-me, .table-contents-contact-me, .table-contents-things-built{
+  font-size: 20px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+.about-me-link, .things-built-link, .contact-me-link{
+  text-decoration: none;
+  color: var(--second-color);
+}
 .content{
   position: relative;
 bottom: 100px;
@@ -71,7 +86,7 @@ body{
 h1{
   font-size: 86px;
   font-family: 'Lora', serif;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-size: 130px;
   font-weight: 500;
   color: #fff;
@@ -80,17 +95,20 @@ h1{
 h2{
   font-size: 48px;
   color: var(--third-color);
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-family: 'poppins', sans-serif;
+  font-weight: 300;
   font-size: 40px;
 }
 
 h4{
   color: var(--third-color);
   padding-top: 10px;
-  font-family: dongle;
-  font-weight: 400;
+  font-family: 'dongle', sans-serif;
+  font-weight: 300;
   font-size: 38px;
+}
+.lower-header{
+  padding-top: 29px;
 }
 p{
   color: var(--third-color);
@@ -98,15 +116,12 @@ p{
   font-weight: 400;
   font-size: 25px;
 }
-.About-me-paragraph, .Built-paragraph{
-  position: relative; 
-  top:-100px;
-}
 .My-name {
   overflow: hidden;
   animation: typing 3.5s steps(40, end), 
   blink-caret .75s step-end infinite;
   padding-top: 20px;
+  font-family: 'poppins', sans-serif;
   font-size: 25px;
   color:var(--third-color);
 }
@@ -117,32 +132,67 @@ a{
   from {width:0}
   to {width: 100%}
 }
-.homepage{
-  color: var(---color);
-}
-.heading-name, .contact-me{
-  padding-bottom: 100px;
-}
-.background-img{
-  background-size: cover;
-}
-.homepage-container{
-  padding-top: 300px;
-}
 .container{
   padding-bottom: 20px;
 }
-.about-me{
-  padding-top: 120px;
+.homepage{
+  font-family: 'lora', serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: var(--second-color);
 }
 hr{
   width: 100%;
-  color:#e2c9ea;
+  color:#8ea7f8;
 }
 .project-img{
   border-radius: 10%;
+ 
+}
+
+.css-img{
   position: relative;
-  top: 70px;
+  top: 6px;
+}
+.vs-img, .js-img{
+  position: relative;
+  top:3px;
+}
+.html-img, .css-img, .vs-img, .js-img{
+  height: auto;
+  width: auto;
+  max-width: 50px;
+  max-height: 50px;
+  margin-bottom: 80px;
+}
+.btn-branding-outline, .show-more-button, .say-hello-button{
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px
+}
+.btn-branding-outline{
+  border-radius: 4px;
+  color: var(--second-color);
+  border-color: var(--second-color);
+  background-color: var(--fourth-color);
+  font-size: 15px;
+  padding: 15px 30px;
+  margin-bottom: 50px;
+}
+.email-paragraph{
+  padding-bottom: 30px;
+}
+.icons{
+  padding-top: 70px;
+  display: inline-block;
+  text-decoration: none;
+}
+.netlify-icon{
+  height: auto;
+  width: auto;
+  max-width: 20px;
+  max-height: 20px;
+ 
 }
 @media (max-width: 960px){
   h1{
@@ -162,40 +212,11 @@ hr{
     width: auto;
     height: 100%;
   }
-}
-
-.btn-branding-outline, .show-more-button, .say-hello-button{
-  font-family: poppins;
-  font-weight: 400;
-  font-size: 15px
-}
-.btn-branding-outline{
-  border-radius: 4px;
-  color: var(--third-color);
-  border-color: var(--third-color);
-  background-color: var(--fourth-color);
-  font-size: 15px;
-  padding: 15px 30px;
-  margin-bottom: 50px;
-}
-.show-more-button{
-  position: relative;
-  top: -60px;
-  margin-bottom: -10px;
-}
-.contact-me-line{
-  margin-top: 100px;
-}
-.say-hello-button, .email-paragraph{
-  position: relative;
-  top: -100px;
-}
-.say-hello-button{
-  margin-bottom: -30px;
-}
-.icons{
-  padding-top: 70px;
-  display: inline-block;
-  text-decoration: none;
-  
+  .homepage{
+    font-size: 45px;
+  }
+  .html-img, .css-img, .vs-img, .js-img{
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
