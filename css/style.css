@@ -194,6 +194,27 @@ hr{
   max-height: 20px;
  
 }
+.content-container{
+  padding-top: 150px;
+}
+.about-heading{
+font-size: 55px;
+}
+.about-line{
+  position: relative;
+  bottom: 70px;
+  padding: 2px;
+}
+.future-nurse-heading{
+  font-family: 'lora', serif;
+  font-weight: 400;
+  color: #40d9ff;
+  font-size: 33px;
+}
+.about-pic{
+  border-radius: 2%;
+  margin-top: 40px;
+}
 @media (max-width: 960px){
   h1{
     font-size: 80px;
@@ -218,5 +239,8 @@ hr{
   .html-img, .css-img, .vs-img, .js-img{
     max-width: 40px;
     max-height: 40px;
+  }
+  .future-nurse-heading{
+    font-size: 23px;
   }
 }
