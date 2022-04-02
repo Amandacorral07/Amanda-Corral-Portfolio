@@ -215,6 +215,16 @@ font-size: 55px;
   border-radius: 2%;
   margin-top: 40px;
 }
+.about-paragraph{
+  font-size: 20px;
+}
+.about-headings{
+  font-family: 'dongle', sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  color: #c898d6;
+  line-height: 40px;
+}
 @media (max-width: 960px){
   h1{
     font-size: 80px;
@@ -242,5 +252,9 @@ font-size: 55px;
   }
   .future-nurse-heading{
     font-size: 23px;
+  }
+  .about-headings{
+    font-size: 
+      48px;
   }
 }
