@@ -99,7 +99,11 @@ h2{
   font-weight: 300;
   font-size: 40px;
 }
-
+h3{
+  font-family: 'dongle', sans-serif;
+  font-size: 60px;
+  color: var(--first-color);
+}
 h4{
   color: var(--third-color);
   padding-top: 10px;
@@ -163,7 +167,10 @@ hr{
   width: auto;
   max-width: 50px;
   max-height: 50px;
-  margin-bottom: 80px;
+  
+}
+.show-more-button{
+  margin-top: 80px;
 }
 .btn-branding-outline, .show-more-button, .say-hello-button{
   font-family: 'poppins', sans-serif;
@@ -192,15 +199,15 @@ hr{
   width: auto;
   max-width: 20px;
   max-height: 20px;
- 
 }
+
 .content-container{
   padding-top: 150px;
 }
-.about-heading{
+.content-heading{
 font-size: 55px;
 }
-.about-line{
+.content-line{
   position: relative;
   bottom: 70px;
   padding: 2px;
@@ -210,15 +217,16 @@ font-size: 55px;
   font-weight: 400;
   color: #40d9ff;
   font-size: 33px;
+  padding-bottom: 40px;
 }
 .about-pic{
   border-radius: 2%;
   margin-top: 40px;
 }
-.about-paragraph{
+.content-paragraph{
   font-size: 20px;
 }
-.about-headings{
+.content-headings{
   font-family: 'dongle', sans-serif;
   font-weight: 700;
   font-size: 68px;
@@ -231,6 +239,9 @@ font-size: 55px;
   }
   h2, h4{
     font-size: 30px;
+  }
+  h3{
+    font-size: 35px;
   }
   p{
     font-size: 20px;
@@ -253,8 +264,12 @@ font-size: 55px;
   .future-nurse-heading{
     font-size: 23px;
   }
-  .about-headings{
+  .content-headings{
     font-size: 
       48px;
+  }
+  .project-img{
+    max-width: 400px;
+    max-height: 400px;
   }
 }
