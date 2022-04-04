@@ -57,7 +57,10 @@ header .overlay {
 margin-top: 53px;
 padding-top: 20px;
 }
-
+.navbar-nav{
+  font-size: 14px;
+  padding-top: 4px;
+}
 .table-contents-about-me, .table-contents-contact-me, .table-contents-things-built{
   font-size: 20px;
   padding-bottom: 80px;
