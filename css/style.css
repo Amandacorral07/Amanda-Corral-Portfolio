@@ -236,6 +236,18 @@ font-size: 55px;
   color: #c898d6;
   line-height: 40px;
 }
+.about-row{
+  margin-bottom: 300px;
+  padding-bottom: 300px;
+}
+.project-row{
+  margin-bottom: 300px;
+  padding-bottom: 300px;
+}
+.contact-me{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 @media (max-width: 960px){
   h1{
     font-size: 80px;
