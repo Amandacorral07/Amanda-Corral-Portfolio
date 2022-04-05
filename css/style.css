@@ -203,7 +203,9 @@ hr{
   max-width: 20px;
   max-height: 20px;
 }
-
+.netlify{
+margin-bottom: 50px;
+}
 .content-container{
   padding-top: 150px;
 }
@@ -247,6 +249,9 @@ font-size: 55px;
 .contact-me{
   padding-bottom: 0;
   margin-bottom: 0;
+}
+.footer-paragraph{
+  font-size: 12px;
 }
 @media (max-width: 960px){
   h1{
