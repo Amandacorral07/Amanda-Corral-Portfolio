@@ -175,16 +175,29 @@ hr{
   position: relative;
   top: 6px;
 }
-.vs-img, .js-img{
+.vs-img, .js-img, .react-img, .mongodb-img, .express-img, .node-img{
   position: relative;
   top:3px;
 }
-.html-img, .css-img, .vs-img, .js-img{
+.html-img, .css-img, .vs-img, .js-img, .node-img{
   height: auto;
   width: auto;
   max-width: 50px;
   max-height: 50px;
   
+}
+.react-img{
+  margin-left: 5px;
+}
+.react-img, .mongodb-img, .express-img{
+  max-width: 45px;
+  max-height: 45px;
+}
+.mongodb-img{
+  margin-left: -2px;
+}
+.node-img{
+  margin-left: 8px;
 }
 .show-more-button{
   margin-top: 80px;
